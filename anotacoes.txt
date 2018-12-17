@@ -1,0 +1,22 @@
+MONGO
+
+Log
+/var/log/mongodb/mongod.log
+
+Terminar 
+sudo killall -15 mongod
+
+Inicar
+sudo mongod
+
+Projeto SpringBoot
+Rodar
+mvn spring-boot:run
+Debug
+mvnDebug spring-boot:run
+ou mvn spring-boot:run -Drun.jvmArguments="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005"
+
+
+sudo docker-compose up -d 
+
+
