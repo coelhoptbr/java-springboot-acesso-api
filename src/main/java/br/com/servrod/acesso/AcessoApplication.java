@@ -8,12 +8,12 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 
 @SpringBootApplication(exclude = { SecurityAutoConfiguration.class })
 public class AcessoApplication extends SpringBootServletInitializer {
-
+/*
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
         return application.sources(AcessoApplication.class);
     }
-
+*/
     public static void main(String[] args) {
         System.out.println("Tentando inicializar");
         SpringApplication.run(AcessoApplication.class, args);
